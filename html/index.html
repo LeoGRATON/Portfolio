@@ -4,11 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/106f6bd51a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <title>Porfolio Léo</title>
 </head>
-<body>
-    
+<body class="container">
+    <section class="congtainer__haut">
+        <header class="container__menu taille-grille">
+            <img src="../integration/LOGO-WEBDSIGNER.png" class="container__menu-logo" alt="le logo de leo le webdesigner du site">
+            <div class="container__menu-rs">
+                <a href="#" class="container__menu-rs-fb white icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="container__menu-rs-insta white icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="container__menu-rs-pinterest white icon"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#" class="container__menu-rs-youtube white icon"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="container__menu-rs-burger burger white icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </header>
+        <section class="container__header taille-grille">
+            <div class="container__header-left">
+                <div class="container__header-decoration">
+                    <img class="container__header-decoration-circle" src="../integration/circle.svg" alt="">
+                    <img class="container__header-decoration-line" src="../integration/line-blue.svg" alt="">
+                </div>
+                <div class="container__header-text">
+                    <h1 class="container__header-text-title white">Un bon design nait de <span class="bold blue">simplicité et de clarté</span></h1>
+                    <p class="container__header-text-p white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a lectus sit amet est scelerisque elementum.</p>
+                    <button class="container__header-text-btn btn btn-blanc">Toutes mes créations<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="container__header-right">
+        </div>
+    </section>
+    <nav class="container__nav">
+        <div class="container__nav-menu">
+            <img src="../integration/LOGO-WEBDSIGNER.png" class="container__nav-menu-img" alt="logo de leo le webdsigner du site">
+            <a href="#" class="container__nav-menu-icon white icon" onclick="toggleMenu()"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <ul class="container__nav-link">
+            <li class="container__nav-link-li"><a href="#" class="container__nav-link-a">Works</a></li>
+            <li class="container__nav-link-li"><a href="#" class="container__nav-link-a">A propos</a></li>
+            <li class="container__nav-link-li"><a href="#" class="container__nav-link-a">Resume</a></li>
+            <li class="container__nav-link-li"><a href="#" class="container__nav-link-a">Blog</a></li>
+            <li class="container__nav-link-li"><a href="#" class="container__nav-link-a">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container__nav-overlay"></div>
+</section>
+
+<section class="container__section">
+    <div class="container__section-textscroll">
+        <span>UX-UI Design   /   Développement web    /   Création de logo      Création de site vitrine</span>
+    </div>
+    <div class="container__section-textscroll">
+        <span>Création de site créatif    /   Branding    /   Création de charte graphique</span>
+    </div>
+</section>
+
+<script src="../js/app.js"></script>
 </body>
 </html>
