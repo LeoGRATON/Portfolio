@@ -8,11 +8,17 @@
     .container__header-left {
         margin-right: -29rem;
     }
+    .container__realisations-global-right-categories {
+      width: 60%;
+    }
   }
 
 @media screen and (max-width: 1508px) {
     .container__header-left {
         margin-right: -32rem;
+    }
+    .container__realisations-global-right-categories {
+      width: 80%;
     }
   }
 
@@ -21,6 +27,15 @@
         font-size: 60px;
         line-height: 5rem;
     }
+    .container__realisations-global-left{
+      display:none;
+    }
+    .container__realisations-global-right-categories {
+      width: 50%;
+    }
+    .container__realisations-global-right{
+      margin-left: 0;
+  }
   }
 
 @media screen and (max-width: 1340px) {
