@@ -48,10 +48,41 @@
     .container__header-text-p{
         width: auto;
     }
-  }
+}
 
-  @media screen and (max-width: 530px) {
+@media screen and (max-width: 1052px) {
+  .container__servcies-les-servcies-card {
+    width: 48%;
+  }
+  .container__servcies-infos {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .container__about-infos {
+    display: block;
+  } 
+}
+
+@media screen and (max-width: 842px) {
+  .container__about-chifres {
+    display: block;
+  }
+  .container__about-chifres-years, .container__about-chifres-projets, .container__about-chifres-clients {
+    width: auto;
+}
+}
+
+@media screen and (max-width: 530px) {
     .container__header-decoration-line{
         display: none;
     }
+    .container__servcies-les-servcies-card {
+      width: auto;
+    }
+    .container__servcies-cards {
+      flex-wrap: wrap;
+      flex-direction: column;
   }
+}

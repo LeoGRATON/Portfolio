@@ -27,6 +27,9 @@
 .white{
     color: var(--white);
 }
+.black{
+    color: var(--black);
+}
 .bold{
     font-weight: 800;
 }
@@ -68,10 +71,53 @@
 }
 
 /* STYLES TEXT */
-.title-h2{
+.title-realisations{
     font-size: 80px;
     font-family: var(--Playfair);
     font-weight: 600;
+}
+.sub-title{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.title-h2{
+    font-family: var(--Playfair);
+    font-size: 50px;
+}
+.title-h3{
+    font-family: var(--Playfair);
+    font-size: 30px;
+    font-weight: 600;
+}
+.sub-title-card{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.border-play{
+    padding: 0.6rem;
+    border: 2px solid;
+    border-radius: 50px;
+}
+.border-play:hover{
+    border-color: var(--blue);
+}
+.text-big{
+    font-weight: 700;
+    font-size: 28px;
+    background-image: url('../integration/quote.png');
+    background-repeat: no-repeat;
+}
+.sub-chifres{
+    text-transform: uppercase;
+    color: var(--blue);
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.big-chifres{
+    font-size: 80px;
+    font-family: var(--Playfair);
+    font-weight: 700;
 }
 
 /* STYLES */
@@ -89,6 +135,11 @@
 .categories:hover{
     color: var(--blue);
     cursor: pointer;
+}
+.border{
+    width: 80px;
+    height: 2px;
+    background-color: var(--blue);
 }
 
 /* ANNIMATION */
@@ -278,4 +329,125 @@
 .container__realisations-global-right-text{
     color: var(--white);
     padding-bottom: 3rem;
+}
+
+.container__servcies{
+    padding-top: 7rem;
+}
+.container__servcies-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__servcies-infos-title{
+    color: var(--white);
+}
+.container__servcies-infos-title-p{
+    padding-bottom: 2rem;
+}
+.container__servcies-infos-title-h2{
+    padding: 2rem 0 2rem;
+}
+.container__servcies-les-servcies-card{
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--grey-blue);
+    border-radius: 15px;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+.container__servcies-les-servcies-card:hover{
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.container__servcies-les-servcies-card-title-p{
+    padding-bottom: 1rem;
+}
+.container__servcies-cards{
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.container__presantation{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../integration/img-presentation.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+.container__presantation-infos{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.container__presantation-infos-subtitle{
+    padding-bottom: 2rem;
+}
+.container__presantation-infos-h2{
+    padding: 2rem 0;
+    text-align: center;
+}
+.container__presantation-infos-btn-play{
+    background-color: var(--blue);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.container__presantation-infos-btn-play:hover{
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+}
+
+.container__about{
+    margin-top: 7rem;
+}
+.container__about-infos{
+    display: flex;
+    color: var(--white);
+    padding-bottom: 3rem;
+}
+.container__about-infos-title{
+    width: 85%;
+}
+.container__about-infos-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container__about-infos-title-subtitle{
+    padding-bottom: 2rem;
+}
+.container__about-infos-title-h2{
+    padding: 2rem 0;
+}
+.container__about-chifres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+.container__about-chifres-years, .container__about-chifres-projets, .container__about-chifres-clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 3rem 0;
+}
+.container__about-chifres-projets{
+    background-color: var(--white);
 }
